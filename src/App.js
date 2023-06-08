@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBarOne from './components/navBarOne'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] h-screen" >
+      <NavBarOne />
+
+      <div className='flex items-center justify-center h-screen'>
+        <h1 className="text-5xl text-center  font-bold text-black">Data to enrich your
+
+        </h1>
+  
+        <h1 className="text-5xl text-center font-bold text-black">online business
+
+        </h1>
+      </div>
+
     </div>
   );
 }
